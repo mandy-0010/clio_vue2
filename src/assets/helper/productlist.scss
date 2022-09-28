@@ -1,0 +1,47 @@
+
+  .list-group-item.active {
+    color:#ada59a;
+    background-color: white;
+    border:#ada59a;
+}
+.list-group-item {
+  color:#ada59a;
+  background-color:white;
+  border: #ada59a;
+}
+.list-group-item:hover {
+  color:white;
+  background-color:#ada59a;
+  border: #ada59a;
+}
+  
+.btn:hover{
+  color:white;
+}
+
+.love-icon{
+  position: absolute;
+    top: 5%;
+    right: 5%;
+}
+
+.ui-checked-display {
+  cursor: pointer;
+  .ui-show, .ui-checkbox {
+    display: none;
+  }
+  .ui-checkbox:checked {
+    & ~ .ui-show {
+      display: block;
+    }
+    & ~ .ui-hidden {
+      display: none;
+    }
+  }
+}
+
+
+// category
+.category {
+  cursor: pointer;
+}

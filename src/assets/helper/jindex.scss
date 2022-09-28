@@ -1,0 +1,82 @@
+.carousel-caption{
+  bottom: 100px;
+}
+
+.carousel-indicators {
+  bottom: 50px;
+}
+
+.bg-cover{
+  background-size: cover;
+  background-position:center;
+}
+
+.four-sides {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+ 
+  left: 0;
+}
+
+.zindex-2{
+  z-index:2;
+}
+
+
+.rectangle-image {
+  z-index: 1;
+  transition: filter .5s;
+}
+
+.rectangle-image-wrap {
+    
+   &.active, &:hover, &:focus {
+    
+    font-weight: bolder;
+    .rectangle-over {
+      background-color: white;
+      opacity: 0.5;
+      
+    }
+    .rectangle-image {
+      filter: blur(5);
+      z-index: -1;
+    }
+    .rectangle-text {
+      color: #ada59a;
+      opacity: 1;
+     
+    }
+    
+  } 
+}
+  
+
+  .rectangle-over{
+    background-color:none;
+    writing-mode: vertical-lr;
+  }
+
+  .rectangle-text {
+    color:white;
+    opacity: 0;
+    font-size: 24px;
+    letter-spacing: 10px;
+  }
+  
+  .text-lg {
+    font-size: 1.4rem;
+  }
+
+  .letter-spacing-1 {
+    letter-spacing: 1px;
+}
+
+.lh-lg {
+  line-height: 2;
+}
+
+.font-design {
+  font-family: Dancing Script,cursive;
+}
